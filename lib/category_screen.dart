@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+import 'categories.dart';
+
+class CategoryScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('meal'),
+      ),
+      body: Categories(),
+    );
+  }
+}
